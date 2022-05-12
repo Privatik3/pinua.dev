@@ -1,11 +1,11 @@
-const spacingGen = () => {
-  let result = {}
-  for (let i = 2; i < 400; i++) {
-    result[`${i}p`] = `${i}px`;
-  }
-
-  return result;
-};
+// const spacingGen = () => {
+//   let result = {}
+//   for (let i = 2; i < 400; i++) {
+//     result[`${i}p`] = `${i}px`;
+//   }
+//
+//   return result;
+// };
 
 module.exports = {
   content: [
@@ -22,8 +22,11 @@ module.exports = {
         '18p': ['18px', {
           lineHeight: '27px',
         }],
+        '56p': ['56px', {
+          lineHeight: '60px',
+        }],
       },
-      spacing: spacingGen(),
+      // spacing: spacingGen(),
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif']
       },
