@@ -12,6 +12,9 @@ module.exports = {
     './src/pages/*.html',
   ],
   theme: {
+    backgroundImage: {
+      'goalsHeader': "url('C:/Users/Администратор/WebstormProjects/pinua.dev/src/assets/0513151511.jpg')",
+    },
     screens: {
       'lg': {'max': '1119px'},
       'md': {'max': '767px'},
