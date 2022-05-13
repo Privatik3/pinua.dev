@@ -25,6 +25,9 @@ module.exports = {
         '56p': ['56px', {
           lineHeight: '60px',
         }],
+        '23p': ['23px', {
+          lineHeight: '24px',
+        }],
       },
       // spacing: spacingGen(),
       fontFamily: {
