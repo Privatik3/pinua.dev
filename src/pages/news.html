@@ -37,205 +37,81 @@
         <div class="flex md:flex-col gap-[20px]">
             <div class="flex flex-col gap-[20px] shrink-0">
                 <div class="border border-[#D8D8D8] shadow px-[20px] py-[25px] gap-[24px] flex flex-col md:flex-row md:flex-wrap">
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.7099 2.29C12.617 2.19627 12.5064 2.12188 12.3845 2.07111C12.2627 2.02034 12.132 1.9942 11.9999 1.9942C11.8679 1.9942 11.7372 2.02034 11.6154 2.07111C11.4935 2.12188 11.3829 2.19627 11.2899 2.29L2.28994 11.29C2.19621 11.383 2.12182 11.4936 2.07105 11.6154C2.02028 11.7373 1.99414 11.868 1.99414 12C1.99414 12.132 2.02028 12.2627 2.07105 12.3846C2.12182 12.5064 2.19621 12.617 2.28994 12.71C2.38338 12.8027 2.49419 12.876 2.61603 12.9258C2.73787 12.9755 2.86833 13.0008 2.99994 13H3.99994V20C3.99994 20.5304 4.21065 21.0391 4.58573 21.4142C4.9608 21.7893 5.46951 22 5.99994 22H17.9999C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7892 21.0391 19.9999 20.5304 19.9999 20V13H20.9999C21.2652 13 21.5195 12.8946 21.707 12.7071C21.8946 12.5196 21.9999 12.2652 21.9999 12C22.0007 11.8684 21.9755 11.7379 21.9257 11.6161C21.8759 11.4943 21.8026 11.3834 21.7099 11.29L12.7099 2.29ZM5.99994 20V10.41L11.9999 4.41L17.9999 10.41V20H5.99994Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>Main</div>
+                        <div class="flex items-center">Main</div>
                     </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 3H5C3.897 3 3 3.897 3 5V19C3 20.103 3.897 21 5 21H19C20.103 21 21 20.103 21 19V5C21 3.897 20.103 3 19 3ZM19 5L19.001 9H5V5H19ZM5 11H13V19H5V11ZM15 19V11H19.001L19.002 19H15Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>For you</div>
+                        <div class="flex items-center">Main</div>
                     </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.035 15.479C4.01193 15.6517 4.00024 15.8258 4 16C4 18.378 6.138 20.284 8.521 19.964C9.214 21.198 10.534 22 12 22C13.466 22 14.786 21.198 15.479 19.964C17.857 20.284 20 18.378 20 16C20 15.827 19.988 15.653 19.965 15.479C21.198 14.786 22 13.465 22 12C22 10.535 21.198 9.214 19.965 8.521C19.988 8.347 20 8.173 20 8C20 5.622 17.857 3.712 15.479 4.036C14.786 2.802 13.466 2 12 2C10.534 2 9.214 2.802 8.521 4.036C6.138 3.712 4 5.622 4 8C4 8.173 4.012 8.347 4.035 8.521C2.802 9.214 2 10.535 2 12C2 13.465 2.802 14.786 4.035 15.479ZM5.477 10.076L6.579 9.783L6.145 8.73C6.04981 8.49836 6.00056 8.25043 6 8C6 6.897 6.897 6 8 6C8.247 6 8.499 6.05 8.73 6.145L9.784 6.579L10.077 5.477C10.1899 5.05316 10.4396 4.67848 10.7873 4.41121C11.1351 4.14393 11.5614 3.99903 12 3.99903C12.4386 3.99903 12.8649 4.14393 13.2127 4.41121C13.5604 4.67848 13.8101 5.05316 13.923 5.477L14.216 6.579L15.27 6.145C15.501 6.05 15.753 6 16 6C17.103 6 18 6.897 18 8C18 8.247 17.95 8.5 17.855 8.73L17.421 9.783L18.523 10.076C18.9458 10.1903 19.3193 10.4406 19.5856 10.7884C19.8518 11.1362 19.9961 11.562 19.9961 12C19.9961 12.438 19.8518 12.8638 19.5856 13.2116C19.3193 13.5594 18.9458 13.8097 18.523 13.924L17.421 14.217L17.855 15.27C17.95 15.5 18 15.753 18 16C18 17.103 17.103 18 16 18C15.753 18 15.501 17.95 15.27 17.855L14.216 17.421L13.923 18.523C13.8101 18.9468 13.5604 19.3215 13.2127 19.5888C12.8649 19.8561 12.4386 20.001 12 20.001C11.5614 20.001 11.1351 19.8561 10.7873 19.5888C10.4396 19.3215 10.1899 18.9468 10.077 18.523L9.784 17.421L8.73 17.855C8.49834 17.9501 8.25042 17.9994 8 18C6.897 18 6 17.103 6 16C6 15.753 6.05 15.5 6.145 15.27L6.579 14.217L5.477 13.924C5.05416 13.8097 4.68073 13.5594 4.41445 13.2116C4.14817 12.8638 4.00388 12.438 4.00388 12C4.00388 11.562 4.14817 11.1362 4.41445 10.7884C4.68073 10.4406 5.05416 10.1903 5.477 10.076Z"
-                                      fill="#202124"/>
-                                <path d="M15.742 10.71L14.334 9.28999L11.003 12.589L9.70697 11.293L8.29297 12.707L10.997 15.411L15.742 10.71Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>Subscribed</div>
+                        <div class="flex items-center">Main</div>
                     </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14 5H6C4.897 5 4 5.897 4 7V23L10 19.399L16 23V7C16 5.897 15.103 5 14 5ZM14 19.467L10 17.068L6 19.467V7H14V19.467Z"
-                                      fill="#202124"/>
-                                <path d="M18 1H10C8.897 1 8 1.897 8 3H16C17.103 3 18 3.897 18 5V15.443L20 17.932V3C20 1.897 19.103 1 18 1Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>Saved</div>
+                        <div class="flex items-center">Main</div>
                     </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 4H6V2H4V20H3V22H7V20H6V15H19C19.2652 15 19.5196 14.8946 19.7071 14.7071C19.8946 14.5196 20 14.2652 20 14V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4ZM18 13H6V6H18V13Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>Ukraine</div>
+                        <div class="flex items-center">Main</div>
                     </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM4 12C4 11.101 4.156 10.238 4.431 9.431L6 11L8 13V15L10 17L11 18V19.931C7.061 19.436 4 16.072 4 12ZM18.33 16.873C17.677 16.347 16.687 16 16 16V15C16 14.4696 15.7893 13.9609 15.4142 13.5858C15.0391 13.2107 14.5304 13 14 13H10V10C10.5304 10 11.0391 9.78929 11.4142 9.41421C11.7893 9.03914 12 8.53043 12 8V7H13C13.5304 7 14.0391 6.78929 14.4142 6.41421C14.7893 6.03914 15 5.53043 15 5V4.589C17.928 5.778 20 8.65 20 12C19.9998 13.7647 19.4123 15.4791 18.33 16.873Z"
-                                      fill="#202124"/>
-                            </svg>
+                    <div class="news-category flex gap-[10px] cursor-pointer" data-id="9">
+                        <div class="flex items-center">
+                            <img src="/assets/main.svg" alt="main">
                         </div>
-                        <div>World</div>
-                    </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 14C14.206 14 16 12.206 16 10C16 7.794 14.206 6 12 6C9.794 6 8 7.794 8 10C8 12.206 9.794 14 12 14ZM12 8C13.103 8 14 8.897 14 10C14 11.103 13.103 12 12 12C10.897 12 10 11.103 10 10C10 8.897 10.897 8 12 8Z"
-                                      fill="#3E8DFF"/>
-                                <path d="M11.4201 21.814C11.5893 21.9349 11.7921 21.9998 12.0001 21.9998C12.2081 21.9998 12.4108 21.9349 12.5801 21.814C12.8841 21.599 20.0291 16.44 20.0001 10C20.0001 5.589 16.4111 2 12.0001 2C7.58909 2 4.00009 5.589 4.00009 9.995C3.97109 16.44 11.1161 21.599 11.4201 21.814ZM12.0001 4C15.3091 4 18.0001 6.691 18.0001 10.005C18.0211 14.443 13.6121 18.428 12.0001 19.735C10.3891 18.427 5.97909 14.441 6.00009 10C6.00009 6.691 8.69109 4 12.0001 4Z"
-                                      fill="#3E8DFF"/>
-                            </svg>
-                        </div>
-                        <div class="text-[#3E8DFF]">local news</div>
-                    </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 7H16V4C16 2.897 15.103 2 14 2H10C8.897 2 8 2.897 8 4V9H4C2.897 9 2 9.897 2 11V20C2 20.2652 2.10536 20.5196 2.29289 20.7071C2.48043 20.8946 2.73478 21 3 21H21C21.2652 21 21.5196 20.8946 21.7071 20.7071C21.8946 20.5196 22 20.2652 22 20V9C22 7.897 21.103 7 20 7ZM4 11H8V19H4V11ZM10 10V4H14V19H10V10ZM20 19H16V9H20V19Z"
-                                      fill="#202124"/>
-                            </svg>
-                        </div>
-                        <div>Business</div>
-                    </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.10202 20.898C3.80002 21.597 4.79802 21.966 5.98902 21.966C7.73102 21.966 9.84402 21.188 12.001 19.839C14.157 21.189 16.271 21.966 18.013 21.966C19.203 21.966 20.201 21.597 20.9 20.898C22.169 19.629 22.311 17.485 21.301 14.859C20.943 13.927 20.447 12.964 19.844 12C20.4198 11.0957 20.9077 10.1383 21.301 9.141C22.311 6.515 22.168 4.37 20.9 3.102C20.202 2.403 19.204 2.034 18.013 2.034C16.271 2.034 14.158 2.812 12.001 4.161C9.84502 2.811 7.73102 2.034 5.98902 2.034C4.79902 2.034 3.80102 2.403 3.10202 3.102C1.83302 4.371 1.69002 6.515 2.70002 9.141C3.05902 10.073 3.55402 11.036 4.15702 12C3.5812 12.9043 3.09331 13.8617 2.70002 14.859C1.69002 17.485 1.83302 19.629 3.10202 20.898ZM19.433 15.577C20.122 17.367 20.141 18.828 19.485 19.484C19.165 19.804 18.67 19.966 18.012 19.966C16.845 19.966 15.366 19.463 13.804 18.586C15.5954 17.2013 17.2027 15.5936 18.587 13.802C18.923 14.403 19.21 14.998 19.433 15.577ZM12 17.417C10.956 16.6706 9.97478 15.8402 9.06602 14.934C8.15536 14.0246 7.31933 13.0434 6.56602 12C8.07164 9.91162 9.90694 8.08207 12 6.583C13.044 7.3294 14.0253 8.15983 14.934 9.066C15.8447 9.97538 16.6807 10.9565 17.434 12C15.9284 14.0884 14.0931 15.9179 12 17.417ZM18.012 4.034C18.669 4.034 19.164 4.196 19.485 4.516C20.141 5.172 20.123 6.633 19.433 8.423C19.21 9.002 18.923 9.597 18.587 10.198C17.204 8.40516 15.5966 6.79735 13.804 5.414C15.366 4.538 16.845 4.034 18.012 4.034ZM4.56702 8.423C3.87802 6.633 3.85902 5.172 4.51502 4.516C4.83502 4.196 5.33002 4.034 5.98802 4.034C7.15502 4.034 8.63402 4.537 10.196 5.414C8.40347 6.79735 6.79599 8.40516 5.41302 10.198C5.08957 9.62699 4.80687 9.03385 4.56702 8.423ZM4.56702 15.577C4.79002 14.998 5.07702 14.403 5.41302 13.802C6.79599 15.5948 8.40347 17.2026 10.196 18.586C8.63302 19.463 7.15502 19.966 5.98802 19.966C5.33102 19.966 4.83602 19.804 4.51502 19.484C3.85902 18.828 3.87802 17.367 4.56702 15.577Z"
-                                      fill="#202124"/>
-                                <path d="M11.9998 14.574C13.4214 14.574 14.5738 13.4216 14.5738 12C14.5738 10.5784 13.4214 9.42599 11.9998 9.42599C10.5782 9.42599 9.42578 10.5784 9.42578 12C9.42578 13.4216 10.5782 14.574 11.9998 14.574Z"
-                                      fill="#202124"/>
-                            </svg>
-                        </div>
-                        <div>Science and technology</div>
-                    </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C6.579 2 2 6.579 2 12C2 17.421 6.579 22 12 22C17.421 22 22 17.421 22 12C22 6.579 17.421 2 12 2ZM14.113 15H9.986L8.263 11.906L10.202 9H13.938L15.809 12.062L14.113 15ZM4 12C4 11.047 4.186 10.13 4.508 9.273L7.696 15H4.61C4.2094 14.0505 4.00202 13.0306 4 12ZM16.283 9H19.389C19.7904 9.94934 19.9981 10.9693 20 12C20 12.844 19.857 13.66 19.603 14.432L16.283 9ZM18.188 7H11.535L13.44 4.143C15.326 4.502 17.002 5.546 18.188 7ZM11.093 4.059L9.132 7H9V7.197L7.17 9.942L5.65 7.214C6.95 5.511 8.899 4.319 11.093 4.059ZM5.812 17H12.959L11.25 19.961C9.084 19.748 7.141 18.63 5.812 17ZM13.64 19.82L16.997 14.005L18.541 16.531C17.387 18.173 15.64 19.385 13.64 19.82Z"
-                                      fill="#202124"/>
-                            </svg>
-                        </div>
-                        <div>Entertainment</div>
-                    </div>
-                    <div class="flex gap-[10px] cursor-pointer">
-                        <div>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.92913 19.071C6.82413 20.966 9.33413 22.009 12.0001 22.009C14.6661 22.009 17.1771 20.966 19.0711 19.071C22.9701 15.172 22.9701 8.82799 19.0711 4.92799C17.1771 3.03399 14.6651 1.98999 12.0001 1.98999C9.33513 1.98999 6.82313 3.03399 4.92913 4.92899C1.03013 8.82699 1.03013 15.172 4.92913 19.071ZM12.3091 4.00599C13.9793 4.06611 15.5874 4.65351 16.9031 5.68399L12.0001 10.586L10.5401 9.12599C11.7011 7.64699 12.3321 5.81799 12.3091 4.00599ZM9.11013 7.69599L7.09813 5.68399C8.0427 4.9436 9.14301 4.42729 10.3161 4.17399C10.3011 5.40999 9.87113 6.65099 9.11013 7.69599ZM7.68613 9.09999C6.66747 9.79592 5.4608 10.1647 4.22713 10.157C4.48697 9.04446 4.98434 8.00128 5.68513 7.09899L7.68613 9.09999ZM4.01113 12.146C4.08813 12.148 4.16513 12.16 4.24213 12.16C6.00182 12.1656 7.71488 11.5945 9.11913 10.534L10.5861 12L5.68513 16.901C4.6275 15.5388 4.04012 13.8703 4.01113 12.146ZM16.3051 14.891C17.3471 14.133 18.5851 13.703 19.8131 13.685C19.563 14.8564 19.0512 15.9562 18.3161 16.902L16.3051 14.891ZM16.9021 18.316C16.0004 19.0209 14.9569 19.5223 13.8431 19.786C13.8318 18.5478 14.2008 17.3359 14.9001 16.314L16.9021 18.316ZM11.8581 20.002C10.1297 19.9745 8.45768 19.3824 7.09713 18.316L12.0001 13.414L13.4631 14.877C12.3601 16.321 11.8041 18.143 11.8581 20.002ZM19.9821 11.692C18.1751 11.674 16.3491 12.302 14.8741 13.46L13.4141 12L18.3151 7.09899C19.3381 8.41763 19.9212 10.0242 19.9821 11.692Z"
-                                      fill="#202124"/>
-                            </svg>
-                        </div>
-                        <div>Sport</div>
+                        <div class="flex items-center">Main</div>
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-[20px]">
-
-
-                <div class="border border-[#D8D8D8] shadow px-[20px] py-[25px] gap-[24px] flex ">
-                    <div class="flex flex-col gap-[20px]">
+            <div>
+                <div class="preloader">
+                    <button class="flex bg-indigo-500 items-center p-[10px] rounded" type="button" disabled>
+                        <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                    Processing...
+                    </button>
+                </div>
+                <div class="flex flex-col gap-[20px]">
+                    <div class="border border-[#D8D8D8] shadow px-[20px] py-[25px] gap-[24px] flex ">
+                        <div class="flex flex-col gap-[20px]">
                         <span class="text-23p lg:flex">Nunc et facilisis dolor vel id augue at eu. Tristique adipiscing sed est porttitor sit feugiat scelerisque malesuada.
                         <div class="shrink-0 hidden lg:flex">
                         <img src="/assets/Rectangle18.jpg" alt="UA">
                         </div>
                         </span>
-                        <span class="text-[#5F6368]">Nec, in tristique ullamcorper nunc, lacus facilisis pharetra blandit ultricies. Amet, sed faucibus dapibus sapien dapibus fames tempor
+                            <span class="text-[#5F6368]">Nec, in tristique ullamcorper nunc, lacus facilisis pharetra blandit ultricies. Amet, sed faucibus dapibus sapien dapibus fames tempor
                     et natoque. Integer sit diam posuere eros,
                     congue faucibus facilisi. Tellus ipsum, odio vel auctor ac elementum aliquet enim quam. Ultricies feugiat ut elementum amet
                     tincidunt consequat, bibendum.</span>
-                        <div class="flex gap-[15px] text-[#5F6368]">
-                            <span>TSN</span>
-                            <span class="items-center flex"><svg width="6" height="7" viewBox="0 0 6 7" fill="none"
-                                                                 xmlns="http://www.w3.org/2000/svg"><circle cx="3"
-                                                                                                            cy="3.5"
-                                                                                                            r="3"
-                                                                                                            fill="#5F6368"/></svg></span>
-                            <span>2 hours ago</span>
+                            <div class="flex gap-[15px] text-[#5F6368]">
+                                <span>TSN</span>
+                                <span class="items-center flex"><svg width="6" height="7" viewBox="0 0 6 7" fill="none"
+                                                                     xmlns="http://www.w3.org/2000/svg"><circle cx="3"
+                                                                                                                cy="3.5"
+                                                                                                                r="3"
+                                                                                                                fill="#5F6368"/></svg></span>
+                                <span>2 hours ago</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="shrink-0 lg:hidden">
-                        <img src="/assets/Rectangle18.jpg" alt="UA">
+                        <div class="shrink-0 lg:hidden">
+                            <img src="/assets/Rectangle18.jpg" alt="UA">
+                        </div>
                     </div>
                 </div>
-                <div class="border border-[#D8D8D8] shadow px-[20px] py-[25px] gap-[24px] flex ">
-                    <div class="flex flex-col gap-[20px]">
-                        <span class="text-23p lg:flex">Nunc et facilisis dolor vel id augue at eu. Tristique adipiscing sed est porttitor sit feugiat scelerisque malesuada.
-                        <div class="shrink-0 hidden lg:flex">
-                        <img src="/assets/Rectangle18.jpg" alt="UA">
-                        </div>
-                        </span>
-                        <span class="text-[#5F6368]">Nec, in tristique ullamcorper nunc, lacus facilisis pharetra blandit ultricies. Amet, sed faucibus dapibus sapien dapibus fames tempor
-                    et natoque. Integer sit diam posuere eros,
-                    congue faucibus facilisi. Tellus ipsum, odio vel auctor ac elementum aliquet enim quam. Ultricies feugiat ut elementum amet
-                    tincidunt consequat, bibendum.</span>
-                        <div class="flex gap-[15px] text-[#5F6368]">
-                            <span>TSN</span>
-                            <span class="items-center flex"><svg width="6" height="7" viewBox="0 0 6 7" fill="none"
-                                                                 xmlns="http://www.w3.org/2000/svg"><circle cx="3"
-                                                                                                            cy="3.5"
-                                                                                                            r="3"
-                                                                                                            fill="#5F6368"/></svg></span>
-                            <span>2 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="shrink-0 lg:hidden">
-                        <img src="/assets/Rectangle18.jpg" alt="UA">
-                    </div>
-                </div>
-                <div class="border border-[#D8D8D8] shadow px-[20px] py-[25px] gap-[24px] flex ">
-                    <div class="flex flex-col gap-[20px]">
-                        <span class="text-23p lg:flex">Nunc et facilisis dolor vel id augue at eu. Tristique adipiscing sed est porttitor sit feugiat scelerisque malesuada.
-                        <div class="shrink-0 hidden lg:flex">
-                        <img src="/assets/Rectangle18.jpg" alt="UA">
-                        </div>
-                        </span>
-                        <span class="text-[#5F6368]">Nec, in tristique ullamcorper nunc, lacus facilisis pharetra blandit ultricies. Amet, sed faucibus dapibus sapien dapibus fames tempor
-                    et natoque. Integer sit diam posuere eros,
-                    congue faucibus facilisi. Tellus ipsum, odio vel auctor ac elementum aliquet enim quam. Ultricies feugiat ut elementum amet
-                    tincidunt consequat, bibendum.</span>
-                        <div class="flex gap-[15px] text-[#5F6368]">
-                            <span>TSN</span>
-                            <span class="items-center flex"><svg width="6" height="7" viewBox="0 0 6 7" fill="none"
-                                                                 xmlns="http://www.w3.org/2000/svg"><circle cx="3"
-                                                                                                            cy="3.5"
-                                                                                                            r="3"
-                                                                                                            fill="#5F6368"/></svg></span>
-                            <span>2 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="shrink-0 lg:hidden">
-                        <img src="/assets/Rectangle18.jpg" alt="UA">
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
