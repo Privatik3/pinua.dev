@@ -14,6 +14,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       'goalsHeader': "url('C:/Users/Администратор/WebstormProjects/pinua.dev/src/assets/0513151511.jpg')",
+      'reportHeader': "url('C:/Users/Администратор/WebstormProjects/pinua.dev/src/assets/image17.jpg')",
     },
     screens: {
       'lg': {'max': '1119px'},
