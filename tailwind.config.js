@@ -3,6 +3,9 @@ module.exports = {
     './src/pages/*.html',
   ],
   theme: {
+    dropShadow: {
+      '3xl': '0px 0px 14px rgba(145, 149, 154, 0.12);',
+    },
     backgroundImage: {
       'goalsHeader': "url('/src/assets/0513151511.jpg')",
       'reportHeader': "url('/src/assets/image17.jpg')",
