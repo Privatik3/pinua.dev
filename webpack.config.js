@@ -30,7 +30,7 @@ module.exports = {
         ],
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './src/pages/home.html' }),
+        new HtmlWebpackPlugin({ template: './src/pages/footer.html' }),
     ],
     devServer: {
         static: path.resolve(__dirname, 'src'),
